@@ -78,14 +78,21 @@ The supervisor makes the decision on what step to do next. Their job is to descr
 
 ```
   <Image
-    style={{width: 50, height: 50}}
-    source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}>
+    style=\{\{width: 50, height: 50\}\}
+    source=\{\{uri: 'https://facebook.github.io/react/img/logo_og.png'\}\}>
     <View>
       <Text>Liked</Text>
     </View>
 
   </Image>
 ```
+
+### Milestone 5: Install your application on your real device
+* iOS, you have to register an Apple Account and sign your app with new account you have just created
+
+     ![Image](http://i.imgur.com/s2qXB7m.png)
+
+* Android, plug your phone to laptop and build android app again `react-native run-android`
 
 ### Bonus 1: Infinite Scrolling
 
@@ -106,6 +113,8 @@ The supervisor makes the decision on what step to do next. Their job is to descr
 ```
 
 ### Bonus 2: [RefreshControl](http://facebook.github.io/react-native/releases/0.41/docs/refreshcontrol.html#refreshcontrol)
+
+![Image](https://media.giphy.com/media/3o7buaVzXqxpRxRh96/giphy.gif)
 
 ### Concept Review
 
